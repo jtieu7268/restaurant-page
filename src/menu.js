@@ -38,6 +38,10 @@ export default function menu() {
         ],
     };
 
+    const menuTitle = document.createElement("h1");
+    menuTitle.textContent = "Menu";
+    container.appendChild(menuTitle);
+
     for (const prop in menuObj) {
         const elem = document.createElement("div");
         const header = document.createElement("h2");
