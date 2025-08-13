@@ -10,7 +10,7 @@ export default function home() {
         From milky to fruity, there's something for everyone. \
         Try our classic brown sugar milk tea served with \
         a caramelized brown sugar glaze and homemade honey boba \
-        or our new juicy bubblegum slush."
+        or our refreshing mango slush."
     hpImg.src = homepageImg;
     hpImg.alt = "boba milk tea";
     container.appendChild(tagline);
