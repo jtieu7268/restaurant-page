@@ -4,14 +4,16 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: lightsteelblue;
     color: steelblue;
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 100vw; */
 }
 
 header {
     display: flex;
     justify-content: right;
-    margin: 1em
+    align-items: center;
+    height: 5vh;
+    width: 100vw;
 }
 
 button {
@@ -29,8 +31,11 @@ button:hover,
 
 #content {
     display: flex;
+    height: 95vh;
+    width: 100vw;
 }
 
+/* HOME */
 .home {
     display: flex;
     margin: 5% 15%;
@@ -52,4 +57,18 @@ button:hover,
 
 img {
     width: 300px;
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }

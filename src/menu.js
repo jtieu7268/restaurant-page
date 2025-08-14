@@ -1,5 +1,6 @@
 export default function menu() {
     const container = document.createElement("div");
+    container.classList.add("menu");
 
     const menuObj = {
         "Milk Tea": [
