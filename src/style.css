@@ -59,8 +59,8 @@ img {
     width: 300px;
 }
 
-/* MENU */
-.menu {
+.menu,
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;

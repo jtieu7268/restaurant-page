@@ -3,6 +3,8 @@ export default function contact() {
     const contactTitle = document.createElement("h1");
     const info = document.createElement("div");
 
+    container.classList.add("contact");
+
     const address = document.createElement("p");
     const email = document.createElement("p");
     const number = document.createElement("p");
