@@ -12,6 +12,8 @@ export default function home() {
     const tagline = document.createElement("h1");
     const descrip = document.createElement("p");
     const hpImg = document.createElement("img");
+    
+    hpImg.classList.add("home-img");
 
     tagline.textContent = "Pop on in and burst our bubbles!";
     descrip.textContent = "Bubbles Boba offers a fun collection of bubble tea drinks. \
